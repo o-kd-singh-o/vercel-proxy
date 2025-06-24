@@ -6,7 +6,7 @@
         },
         { 
             "source": "/app2/:path*", 
-            "destination": "https://working-testing-bolt-react-webhooks.vercel.app/" 
+            "destination": "https://working-testing-bolt-react-webhooks.vercel.app/:path*" 
         }
     ]
 } 
