@@ -5,8 +5,8 @@
             "destination": "https://app1.vercel.app/$1" 
         },
         { 
-            "source": "/app2/(.*)", 
+            "source": "/app2/:path*", 
             "destination": "https://working-testing-bolt-react-webhooks.vercel.app/" 
         }
     ]
-}
+} 
